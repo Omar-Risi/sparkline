@@ -20,7 +20,7 @@ function About() {
         <AboutBox>
           <h4 className="text-2xl font-bold">We have</h4>
           <h1 className="mt-8 text-6xl font-bold text-center">500+</h1>
-          <p className="text-4xl font-bold mt-2">1.7M views</p>
+          <p className="text-4xl font-bold mt-2">Happy Clients</p>
         </AboutBox>
         <AboutBox>
           <h4 className="text-2xl font-bold">Our support is available</h4>
