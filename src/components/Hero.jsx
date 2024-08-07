@@ -12,7 +12,7 @@ function Hero() {
       {/* Video Section  */}
       <div className="mt-24 flex flex-col items-center">
         <VideoBox />
-        <p className="mt-4 text-center text-2xl"> Check out how we got Jake 10+ followers in just 1 month...</p>
+        <p className="mt-4 text-center text-2xl"> Check out how we got Jake 10K+ followers in just 1 month...</p>
       </div>
 
       {/* CTA button */}
