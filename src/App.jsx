@@ -1,8 +1,9 @@
+import Navigation from "./components/Navigation";
+
 function App() {
     return (
         <>
-
-            <h1 className="font-title font-black text-6xl"> SPARKLINE </h1>
+            <Navigation />
 
         </>
     ); 
