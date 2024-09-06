@@ -25,10 +25,10 @@ function Packages() {
     }
 
     return(
-        <section className="h-screen flex flex-col items-center mt-24 w-screen" id="packages">
+        <section className="flex flex-col items-center mt-24 w-screen" id="packages">
             <h1 className="font-title font-black text-4xl lg:text-6xl">OUR PACKAGES</h1> 
 
-            <div className="grid w-3/4 grid-rows-3 lg:grid-cols-3 mt-16 gap-14">
+            <div className="grid w-3/4 grid-rows-3 lg:grid-rows-none lg:grid-cols-3 mt-16 gap-14">
                 <Package packageName={"Standard"} packagePrice={"$10"}> 
                     <PackageEffect effectName={"Effect 1"} checked={true} />
                     <PackageEffect effectName={"Effect 2"} checked={false} />
