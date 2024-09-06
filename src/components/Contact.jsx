@@ -6,7 +6,7 @@ function Contact () {
                 
                 <div className="flex flex-row gap-4 mt-12">
                     <input type="text" placeholder="email@example.co" className="px-4 py-2 rounded-md text-xl font-sub font-medium text-black placeholder:text-gray-400" />
-                    <button className="uppercase text-xl text-white bg-gray-900 px-8 py-2 rounded-md font-medium ease-in-out duration-200 hover:bg-white hover:text-black focus:text-black focus:bg-white"> send </button>
+                    <button className="uppercase text-xl text-white bg-[#1c1c1c] px-8 py-2 rounded-md font-medium ease-in-out duration-200 hover:bg-white hover:text-black focus:text-black focus:bg-white"> send </button>
                 </div>
         </section>
     )

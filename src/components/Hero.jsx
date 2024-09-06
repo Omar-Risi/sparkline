@@ -5,7 +5,7 @@ function Hero() {
             THE BEST <br /> VPN SERVICE PROVIDER
         </h1>
         <p className="text-gray-600 text-xl font-sub font-medium text-center">Apply for our 7-days free trial offer right now by signing up on our website!</p>
-        <button className="bg-black px-8 py-3 text-xl font-sub text-white font-medium rounded-md shadow-md ease-in-out duration-200 hover:bg-white hover:text-black"> Sign Up</button>
+        <button className=" uppercase bg-black px-8 py-3 text-xl font-sub text-white font-medium rounded-md shadow-md ease-in-out duration-200 hover:bg-white hover:text-black"> Sign Up</button>
     </section>)
 }
 
