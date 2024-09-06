@@ -24,13 +24,13 @@ function Navigation () {
                 <button className="w-fit bg-black text-white text-lg md:text-base font-sub font-semibold px-3 py-2 rounded-md shadow-md ml-4 mr-8 ease-in-out duration-200 hover:bg-gray-50 hover:text-gray-900"> Log In</button>
             </menu>
 
-            <section className="flex lg:hidden flex-row items-center justify-end  ">
+            <section className="hidden flex-row items-center justify-end  ">
                 <button onClick={openNav} className="w-12 h-12"> <img src="/Burger.svg" alt="menu" className="w-full h-full" /></button>
             </section>
 
             </nav>
 
-            <section className={`block lg:hidden absolute top-0 right-0 h-screen ease-in-out duration-200 bg-gray-200 overflow-hidden w-${navWidth}`}>
+            <section className={`hidden absolute top-0 right-0 h-screen ease-in-out duration-200 bg-gray-200 overflow-hidden w-${navWidth}`}>
                 <button onClick={closeNav} className="w-12 h-12" > <img src="/Burger.svg" alt="Close" className="w-full h-full" /></button>
 
                 <menu className="text-2xl font-medium grid-rows-4 gap-8 items-center text-left justify-center mt-24  grid">
