@@ -30,7 +30,7 @@ function Navigation () {
 
             </nav>
 
-            <section className={`absolute top-0 right-0 bg-gray-200 h-screen overflow-hidden w-${navWidth} ease-in-out duration-200`}>
+            <section className={`absolute top-0 right-0 bg-gray-200 h-screen overflow-hidden w-${navWidth} ease-in-out duration-200 hidden`}>
                 <button onClick={closeNav} className="w-12 h-12" > <img src="/Burger.svg" alt="Close" className="w-full h-full" /></button>
 
                 <menu className="text-2xl font-medium grid-rows-4 gap-8 items-center text-left justify-center mt-24  grid">

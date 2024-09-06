@@ -11,8 +11,8 @@ function About() {
         velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
     </section>
-    <section className="flex flex-col justify-center items-center py-24">
-        <h1 className="font-black font-title text-4xl lg:text-6xl"> WE ARE EVERYWHERE</h1>
+    <section className="flex flex-col justify-center items-center py-24 px-12">
+        <h1 className="font-black font-title text-4xl lg:text-6xl text-center"> WE ARE EVERYWHERE</h1>
         <p className="text-gray-600 font-medium text-xl text-center">
             our services are available to everyone, everywhere around the world
         </p>
