@@ -4,7 +4,7 @@ function Navigation () {
 
     const [navWidth, setNavWidth] = useState("0");
     function openNav() {
-        return setNavWidth("[80vw]")
+        return setNavWidth("screen")
     }
     function closeNav() {
         return setNavWidth("0");
@@ -30,7 +30,7 @@ function Navigation () {
 
             </nav>
 
-            <section className={`absolute top-0 right-0 bg-gray-200 h-screen overflow-hidden w-${navWidth} ease-in-out duration-200 hidden`}>
+            <section className={`block lg:hidden absolute top-0 right-0 h-screen ease-in-out duration-200 bg-gray-200 overflow-hidden w-${navWidth}`}>
                 <button onClick={closeNav} className="w-12 h-12" > <img src="/Burger.svg" alt="Close" className="w-full h-full" /></button>
 
                 <menu className="text-2xl font-medium grid-rows-4 gap-8 items-center text-left justify-center mt-24  grid">
